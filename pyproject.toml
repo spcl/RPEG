@@ -1,0 +1,39 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "RPEG"
+version = "1.0.0"
+authors = [
+  { name="Maciej Besta", email="maciej.besta@inf.ethz.ch" },
+  { name="Leonard Schmidt", email="sleonar@student.ethz.ch" },
+  { name="Pierre Pang", email="pipang@student.ethz.ch" },
+  { name="Patrik Okanovic", email="patrik.okanovic@inf.ethz.ch" },
+  { name="Robert Gerstenberger", email="gerstenberger.robert@gmail.com" },
+]
+description = "Python package for RLM Pipeline Execution Graph"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.10,<3.13"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+  "absl-py>=2.0",
+  "huggingface_hub>=0.30",
+  "matplotlib",
+  "megatron-core==0.17.0",
+  "numpy",
+  "psutil>=5.9",
+  "pytest>=9.0",
+  "PyYAML>=6.0.2",
+  "safetensors>=0.5",
+  "scipy",
+  "torch>=2.6",
+  "transformers>=4.51,<6"
+]
+
+[project.urls]
+Homepage = "https://github.com/spcl/RPEG"
