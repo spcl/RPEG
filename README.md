@@ -12,7 +12,7 @@
   <img src="paper/pics/just_schedule_v6.svg" width="95%">
 </p>
 
-This is the official implementation of [RPEG: Training Reasoning Language Models Scalably and Cost-Effectively](https://arxiv.org/abs/2611.).
+This is the official implementation of [RPEG: Training Reasoning Language Models Scalably and Cost-Effectively](https://arxiv.org/abs/2611.09207).
 
 RPEG is a compiler-style optimizer and distributed runtime for RLHF and reasoning language training pipelines.
 It jointly searches over **parallelism strategies** (data, pipeline, tensor), **device placement**, **microbatching**, **parameter sharing** (actor-critic weight sharing), **stage fusion** (generation-inference overlap via response-length quantile splitting), and **bounded asynchrony** (staleness-controlled weight updates) to maximize throughput and hardware utilization on multi-GPU clusters.
@@ -276,9 +276,9 @@ When using this in your work, please reference us with the citation provided bel
   author = {Besta, Maciej and Schmidt, Leonard and Pang, Pierre and Okanovic, Patrik and Gerstenberger, Robert and Hoefler, Torsten},
   year = 2026,
   month = Nov,
-  doi = {10.48550/arXiv.2611.},
-  url = {http://arxiv.org/abs/2611.},
+  doi = {10.48550/arXiv.2611.09207},
+  url = {http://arxiv.org/abs/2611.09207},
   eprinttype = {arXiv},
-  eprint = {2611.}
+  eprint = {2611.09207}
 }
 ```
